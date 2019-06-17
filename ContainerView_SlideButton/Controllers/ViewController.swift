@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         // Shaped round (Function created in UIViewExtension)
         areaView.round()
         toSlider.round()
+        containerView.roundTop()
         showChildView(showOneView: true)
     }
 

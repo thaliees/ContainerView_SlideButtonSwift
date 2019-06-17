@@ -1,7 +1,7 @@
 # ContainerView SlideButton
 
 [Project created with Xcode V10.2.1]
-[Deployment Target > 9.0 ]
+[Deployment Target > 11.0 ]
 
 ## Project Base.
 Creación de un Botón Deslizante con esquinas redondeadas para mostrar Views:
@@ -14,3 +14,6 @@ El botón tiene dos animaciones para mover el botón a la derecha o izquierda, s
 #### [moveButtonRigth]:
 -Si el botón está a la izquierda entonces: Si el botón sobrepasa el 50% del área de desplazamiento, el botón se desplaza a su derecha.
 -Si el botón está a la derecha entonces: Si la posición del botón es menor a su tamaño, se regresa a su posición origen.
+
+## Style
+Al contenedor de las vistas se le da estilo de esquinas redondeadas en la parte superior.

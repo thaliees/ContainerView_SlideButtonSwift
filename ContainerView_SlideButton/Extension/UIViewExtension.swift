@@ -13,4 +13,10 @@ extension UIView{
         layer.cornerRadius = CGFloat(20)
         clipsToBounds = true
     }
+    
+    func roundTop() {
+        layer.cornerRadius = CGFloat(40.0)
+        clipsToBounds = true
+        layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+    }
 }
