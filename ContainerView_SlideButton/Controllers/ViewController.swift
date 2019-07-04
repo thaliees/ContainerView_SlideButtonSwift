@@ -101,7 +101,7 @@ class ViewController: UIViewController {
     private func addViewControllerAsChild(childViewController: UIViewController){
         addChild(childViewController)
         containerView.addSubview(childViewController.view)
-        childViewController.view.frame = view.bounds
+        childViewController.view.frame = containerView.bounds
         childViewController.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         childViewController.didMove(toParent: self)
     }

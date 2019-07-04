@@ -17,3 +17,6 @@ El botón tiene dos animaciones para mover el botón a la derecha o izquierda, s
 
 ## Style
 Al contenedor de las vistas se le da estilo de esquinas redondeadas en la parte superior.
+
+## ViewController incomplete
+_Bug: Al mostrar el ChildViewController en diferentes dispositivos, se ve incompleta la vista. { Corregido }
